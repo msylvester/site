@@ -32,10 +32,13 @@ In response, AbstractAI engineers deployed additional Dynos to maintain an accep
 
 <img src="https://scontent-lax3-1.xx.fbcdn.net/v/t1.0-9/15241180_10155018659806564_434315781857504498_n.jpg?oh=52595ac03a4afd91bd3efbee6caa4bf3&oe=5916BC77">
 ### Why Serverless
-Using the Serverless Framework, Abstract <b>reduced the recurring costs associated with LBL's bank-end services nearly 95%</b>. When there are large spikes in users, the architecture
-will provide the needed network resources, but the user will not be charged otherwise.  In short, Serverless Framework requires payment only when network resources are used.
 
-Changing our architecture to incorporate Serverless was a simple because the Serverless Framework is accessible. Serverless has tremendous documentation and examples. Abstract knew from a business perspective that adopting this new framework didn’t present a huge risk, because there are so many outstanding resources and strong community. It doesn’t require you to be an expert cloud architect to deploy a really robust application.
+In short, Abstract chose the Serverless Framework because it provided access to abstraction via Amazon Lambda and it took the Abstract team one week to develop the skills to do a production level deployment.
+
+Using the Serverless Framework, Abstract <b>reduced the recurring costs associated with Laidback Luke's bank-end services nearly 95%</b>. When there are large spikes in users, the architecture
+will provide the needed network resources, but the user will not be charged otherwise.  In short, leveraging Amazon Lambda, Serverless Framework requires payment only when network resources are used.
+
+Unlike some frameworks, developing proficiency with Serverless Framework took only a week.  There are resources available within the Serverless Framework which taught the Abstract team how to create RESTfull API in less than ten minutes.
 
 It solved our problem by providing an infinitely scalable bot, at almost no cost. Instead of having to monitor server metrics constantly, Abstract was able to have peace of mind.
 ### Results
@@ -44,10 +47,15 @@ Feedback from the client was extremely positive. The bot sent and received over 
 
 Most importantly, the following table shows the change in monthly cost after implementing the Serverless Framework:
 
-| Cost without Serverless Framework ($/month) | Cost with Severless Framework ($/month) |
+| Cost without Serverless Framework ($/month) | Cost with Serverless Framework ($/month) |
 |:-:|---|
 | *340* | **17** |
 
-At AbstractAI, the Servereless Framework is the backbone of our proprietary methodology for developing rest API's and chatbots.  In the words of our client
+The ability to build a model quickly with the Serverless Framework has had a positive effect on Abstract's product development methodology.  Specifically. abstracting advanced functionality is a huge benefit to the developer community.  For example, as mentioned above, an engineer at Abstract found a tutorial that explained how to build a RESTful API in less than ten minutes using the Serverless Framework.  
+
+Abstract's client are interested in products that leverage both artificial intelligence and machine learning.  
+Removing the friction associated with publishing an API, Abstract is able to concentrate on the area where Abstract creates the most value: <i> abstracting </i> resources and functionality so front-end developers can focus on the design and implementation of the UI/UX.
+
+At AbstractAI, the Serverless Framework is the backbone of our proprietary methodology for developing rest API's and chatbots.  In the words of our client
 
 <blockquote>Laidback Luke’s Messenger (bot) experience was a success and Luke’s birthday bash guest lists are filled up with super fans who deserve a free show! <br/><b>Todd T.</b> - <i>CEO of Brainitch, Inc.</i></blockquote>
